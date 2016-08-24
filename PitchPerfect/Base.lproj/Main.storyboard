@@ -18,24 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="91H-Wx-Ckz">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="91H-Wx-Ckz">
                                 <rect key="frame" x="20" y="64" width="560" height="536"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5T5-Yq-prb">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="178.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="312.5"/>
                                         <state key="normal" image="recordButton"/>
                                         <connections>
                                             <action selector="recordAudio:" destination="tAe-QE-FcI" eventType="touchUpInside" id="CaB-7a-CBL"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgh-r6-np6">
-                                        <rect key="frame" x="0.0" y="178.5" width="560" height="179"/>
+                                        <rect key="frame" x="0.0" y="312.5" width="560" height="67"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kxa-iK-hVF">
-                                        <rect key="frame" x="0.0" y="357.5" width="560" height="178.5"/>
+                                        <rect key="frame" x="0.0" y="379.5" width="560" height="156.5"/>
                                         <state key="normal" image="stopButton"/>
                                         <connections>
                                             <action selector="stopRecording:" destination="tAe-QE-FcI" eventType="touchUpInside" id="JPO-HS-f7z"/>
